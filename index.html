@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" class="re">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>SiderBar</title>
+</head>
+
+<body>
+    <nav class="sidebar close">
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <img src="data:image/png;base64,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"
+                        alt="">
+                </span>
+
+                <div class="text header-text">
+                    <span class="name">Web sidebar</span>
+                    <span class="profession">Developer</span>
+                </div>
+            </div>
+
+            <i class='bx bx-chevron-right toggle'></i>
+        </header>
+
+        <div class="menu-bar">
+            <div class="menu">
+                <li class="search-box">
+                    <!-- <a href="#"> -->
+                    <i class='bx bx-search icon'></i>
+                    <input type="search" placeholder="search...">
+                    <!-- </a> -->
+                </li>
+                <ul class="menu-links">
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-home-alt icon'></i>
+                            <span class="text van-text">Dashboard</span>
+                            <!-- <span class="tooltip-content">Dashboard</span> -->
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-bar-chart-alt-2 icon'></i>
+                            <span class="text van-text">Revenue</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-bell icon'></i>
+                            <span class="text van-text">Notifications</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-pie-chart-alt icon'></i>
+                            <span class="text van-text">Analytics</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-heart icon'></i>
+                            <span class="text van-text">Likes</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-wallet icon'></i>
+                            <span class="text van-text">Wallets</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="bottom-content">
+                <!-- <li class="">
+                    <a href="#">
+                        <i class='bx bx-log-out icon'></i>
+                        <span class="text van-text">Logout</span>
+                    </a>
+                </li> -->
+                <div class="sidebar-profile">
+                    <div class="avatar-wrapper">
+                        <img class="avatar"
+                            src="http://drive.google.com/uc?export=view&id=1fdrcHDWcwLDnvkm-VaWp9_l-ricLCAye"
+                            width="100%" height="auto" alt="Juan Fernando Div">
+                        <div class="online-status"></div>
+                    </div>
+                    <section class="avatar-name hide">
+                        <div class="user-name">Juan Fernadno</div>
+                        <div class="email">juan@gmail.com</div>
+                    </section>
+                    <a href="#logout" class="logout">
+                        <i class='bx bx-log-out icon'></i>
+                    </a>
+                </div>
+                <li class="mode">
+                    <div class="moon-sun">
+                        <i class='bx bx-moon icon moon'></i>
+                        <i class='bx bx-sun icon sun'></i>
+                    </div>
+                    <span class="mode-text text">Dark Mode</span>
+                    <div class="toggle-switch">
+                        <span class="switch"></span>
+                    </div>
+
+                </li>
+            </div>
+        </div>
+    </nav>
+
+    <section class="home">
+        <div class="text">Dashboard</div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
